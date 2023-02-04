@@ -13,6 +13,17 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  var numeroString = num.toString();
+  // Reverse the string
+  var numeroReversed = numeroString.split('').reverse().join('');
+  // Compare the original and reversed strings
+  if (numeroString === numeroReversed){
+     //console.log("Es capicua");
+    return true;
+  }else{ 
+    //console.log("No Es capicua"); 
+    return false;
+  }
 
 }
 

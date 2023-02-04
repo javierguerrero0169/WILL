@@ -1,3 +1,4 @@
+
 # Simulación de Henry Challenge para Practicar - JAVASCRIPT
 
 ## Lee con atención todo el material.
